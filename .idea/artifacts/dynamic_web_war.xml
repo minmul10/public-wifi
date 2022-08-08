@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dynamic_web:war">
+    <output-path>$PROJECT_DIR$/dynamic_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dynamic_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dynamic_web.war">
+      <element id="artifact" artifact-name="dynamic_web:war exploded" />
+    </root>
+  </artifact>
+</component>
